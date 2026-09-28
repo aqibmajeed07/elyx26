@@ -1,0 +1,1193 @@
+[
+  {
+    "number": 1,
+    "title": "POEM WRITING",
+    "category": "General Events",
+    "date": "29-09-2026",
+    "rules": [
+      "Duration 15 minutes.",
+      "Paper will be provided.",
+      "Mobile phones are not allowed.",
+      "Strictly no plagiarism."
+    ],
+    "faculty": [
+      {
+        "name": "PROF. V. KUMAR",
+        "designation": "AP/ENGLISH"
+      },
+      {
+        "name": "DR. E. ESAIARASI",
+        "designation": "AP/MATHS"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "AMALA AKASH",
+        "department": "EEE",
+        "phone": "8015318251"
+      },
+      {
+        "name": "BOWSIHAN",
+        "department": "MECH",
+        "phone": "9043364977"
+      },
+      {
+        "name": "LAKSHMIPRIYA",
+        "department": "CSE",
+        "phone": "9176719613"
+      },
+      {
+        "name": "JERLIN",
+        "department": "ECE-A",
+        "phone": "9047788847"
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "title": "ESSAY WRITING",
+    "category": "General Events",
+    "date": "29-09-2026",
+    "rules": [
+      "Duration 30 minutes.",
+      "Paper will be provided.",
+      "Mobile phones are not allowed.",
+      "Strictly no plagiarism."
+    ],
+    "faculty": [
+      {
+        "name": "PROF. S. MUTHUPRIYA",
+        "designation": "AP/ENGLISH"
+      },
+      {
+        "name": "DR. J. RAJAKUMAR",
+        "designation": "AP/MATHS"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "KALAISELVAN",
+        "department": "MECH-A",
+        "phone": "6383419411"
+      },
+      {
+        "name": "LOGESH KUMAR",
+        "department": "EEE",
+        "phone": "8525940905"
+      },
+      {
+        "name": "GNANA ROMIE",
+        "department": "ECE-A",
+        "phone": "8220482102"
+      },
+      {
+        "name": "MADUMITHA",
+        "department": "CSE",
+        "phone": "9843235474"
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "title": "ELOCUTION",
+    "category": "General Events",
+    "date": "30-09-2026",
+    "rules": [
+      "Duration maximum 5 minutes.",
+      "Do not carry any hints with you.",
+      "Mobile phones not allowed while performing."
+    ],
+    "faculty": [
+      {
+        "name": "PROF. R. MEENAKSHI",
+        "designation": "AP/PHYSICS"
+      },
+      {
+        "name": "DR. N. SURESH BABU",
+        "designation": "AP/CHEMISTRY"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "MANIKANDAN",
+        "department": "EEE",
+        "phone": "7603832177"
+      },
+      {
+        "name": "PADMA",
+        "department": "ECE-B",
+        "phone": "7810021303"
+      },
+      {
+        "name": "DURGA",
+        "department": "CSE",
+        "phone": "8438801404"
+      },
+      {
+        "name": "HARI HARAN",
+        "department": "CIVIL",
+        "phone": "93446440580"
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "title": "DRAWING",
+    "category": "General Events",
+    "date": "30-09-2026",
+    "rules": [
+      "Duration 1 Hour. A3 sheet will be provided.",
+      "Pencil, crayons and paint are allowed.",
+      "Drawing essentials should be brought on your own.",
+      "Mobile phones are not allowed."
+    ],
+    "faculty": [
+      {
+        "name": "PROF. P. SURESHKUMAR",
+        "designation": "AP/MECH"
+      },
+      {
+        "name": "PROF. P. PREMA",
+        "designation": "AP/MECH"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "THIYAGA THILIPAN",
+        "department": "ECE-B",
+        "phone": "9566733853"
+      },
+      {
+        "name": "JESWIN ISRAEL",
+        "department": "ECE-A",
+        "phone": "9486558725"
+      },
+      {
+        "name": "LEONA AMORITA",
+        "department": "MECH",
+        "phone": "7708588899"
+      },
+      {
+        "name": "RANI",
+        "department": "CSE",
+        "phone": "7397151677"
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "title": "ART FROM WASTE",
+    "category": "General Events",
+    "date": "07-10-2026",
+    "rules": [
+      "Duration maximum 45 minutes. Candidates should participate individually.",
+      "Waste materials should be brought on your own.",
+      "Art must be made at the given time.",
+      "All essential things needed (scissors, glue etc.,) should be brought on your own."
+    ],
+    "faculty": [
+      {
+        "name": "DR. B. PARAMASIVAM",
+        "designation": "ASP/EEE"
+      },
+      {
+        "name": "DR. G. BALASUBRAMANIAN",
+        "designation": "AP/EEE"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "BARATH",
+        "department": "ECE-A",
+        "phone": "9360502257"
+      },
+      {
+        "name": "MUTHAMIL",
+        "department": "MECH",
+        "phone": "9342420694"
+      },
+      {
+        "name": "SARASWATHI",
+        "department": "CSE",
+        "phone": "9094480344"
+      },
+      {
+        "name": "BARANI",
+        "department": "EEE",
+        "phone": "7339555384"
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "title": "DEBATE",
+    "category": "General Events",
+    "date": "09-10-2026",
+    "rules": [
+      "Mobile phones not allowed.",
+      "Candidates are permitted to deliver their speech in colloquial way."
+    ],
+    "faculty": [
+      {
+        "name": "DR.C.MARIMUTHU",
+        "designation": "AP/E&I"
+      },
+      {
+        "name": "MS. D. BERYL GIFTY MONISHA",
+        "designation": "TAP/CSE"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "KISHORE G P",
+        "department": "CSE",
+        "phone": "6380658348"
+      },
+      {
+        "name": "VISHVA",
+        "department": "CIVIL",
+        "phone": "8610425526"
+      },
+      {
+        "name": "FEMI",
+        "department": "CIVIL",
+        "phone": "7708879903"
+      },
+      {
+        "name": "GRACY",
+        "department": "EEE",
+        "phone": "6382488936"
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "title": "RANGOLI",
+    "category": "General Events",
+    "date": "16-10-2026",
+    "rules": [
+      "Duration maximum 2 hour. Maximum number of people allowed-4.",
+      "Rangoli powder should be brought on your own.",
+      "Chalk piece will be provided."
+    ],
+    "faculty": [
+      {
+        "name": "DR. K. PADMA PRIYA",
+        "designation": "AP/ECE"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "YUVA SHRUTHI",
+        "department": "CSE",
+        "phone": "9345998685"
+      },
+      {
+        "name": "RAMYA K",
+        "department": "ECE-B",
+        "phone": "7010432609"
+      },
+      {
+        "name": "SHIFANA",
+        "department": "CIVIL",
+        "phone": "8610010920"
+      },
+      {
+        "name": "ABINAYA",
+        "department": "MECH",
+        "phone": "9940993668"
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "title": "FIRELESS COOKING",
+    "category": "General Events",
+    "date": "01-10-2026",
+    "rules": [
+      "Duration: 1 hour.",
+      "No heating appliances (induction, gas, oven) allowed.",
+      "Ingredients should be brought by participants."
+    ],
+    "faculty": [
+      {
+        "name": "DR. M. MAHIL",
+        "designation": "AP/CSE"
+      },
+      {
+        "name": "DR. D. ANITHA",
+        "designation": "AP/CSE"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "VEERA BHARATHI",
+        "department": "EEE",
+        "phone": "6385657637"
+      },
+      {
+        "name": "JENOWIN",
+        "department": "CIVIL",
+        "phone": "9042514044"
+      },
+      {
+        "name": "AKSHYA",
+        "department": "CSE",
+        "phone": "6379548209"
+      },
+      {
+        "name": "PAVITHRA",
+        "department": "ECE-B",
+        "phone": "9360783773"
+      }
+    ]
+  },
+  {
+    "number": 9,
+    "title": "VEGETABLE CARVING",
+    "category": "General Events",
+    "date": "15-10-2026",
+    "rules": [
+      "Duration 45 minutes. Candidates should participate individually.",
+      "Vegetables and other essential things (knife, toothpick etc.,) should be brought on your",
+      "own."
+    ],
+    "faculty": [
+      {
+        "name": "DR.V.KARTHICK",
+        "designation": "AP/IBT"
+      },
+      {
+        "name": "MR.V.SATTANATHAN",
+        "designation": "TAP/ECE"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "SAM JENISHION",
+        "department": "MECH",
+        "phone": "7845520405"
+      },
+      {
+        "name": "PREETHI R K",
+        "department": "ECE-B",
+        "phone": "9342173108"
+      },
+      {
+        "name": "VENNILA R",
+        "department": "CSE",
+        "phone": "8825955536"
+      },
+      {
+        "name": "MUSSAMIL",
+        "department": "CIVIL",
+        "phone": "8838299107"
+      }
+    ]
+  },
+  {
+    "number": 10,
+    "title": "QUIZ",
+    "category": "General Events",
+    "date": "05-10-2026",
+    "rules": [
+      "Teams of 2 to 3 members.",
+      "Mobile phones are not allowed."
+    ],
+    "faculty": [
+      {
+        "name": "DR. M. MOHAMED YOUNUS",
+        "designation": "AP/CIVIL"
+      },
+      {
+        "name": "DR. M. MURUGAN",
+        "designation": "AP/CIVIL"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "ARAVIND",
+        "department": "CIVIL",
+        "phone": "9442981307"
+      },
+      {
+        "name": "MOHAMMED",
+        "department": "MECH",
+        "phone": "9952507669"
+      },
+      {
+        "name": "SANTHIYA",
+        "department": "CSE",
+        "phone": "6381764603"
+      },
+      {
+        "name": "AKSHAYA",
+        "department": "EEE",
+        "phone": "7904632928"
+      }
+    ]
+  },
+  {
+    "number": 11,
+    "title": "TREASURE HUNT",
+    "category": "General Events",
+    "date": "08-10-2026",
+    "rules": [
+      "Team event (up to 4 members).",
+      "Find clues hidden within the campus limits.",
+      "Time-based selection criteria."
+    ],
+    "faculty": [
+      {
+        "name": "DR. M. SABARI",
+        "designation": "AP/MATHS"
+      },
+      {
+        "name": "DR. D. CHERINE",
+        "designation": "AP/PHYSICS"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "SIVA SANKAR",
+        "department": "CSE",
+        "phone": "7010328022"
+      },
+      {
+        "name": "HARI PRANAV",
+        "department": "CIVIL",
+        "phone": "9384455155"
+      },
+      {
+        "name": "BEAUTLIN",
+        "department": "EEE",
+        "phone": "8883260365"
+      },
+      {
+        "name": "PAVITHRA",
+        "department": "CSE",
+        "phone": "9597910333"
+      }
+    ]
+  },
+  {
+    "number": 12,
+    "title": "PAPER ART",
+    "category": "General Events",
+    "date": "09-10-2026",
+    "rules": [
+      "Duration: 1 hour. Individual event.",
+      "All paper and stationary supplies must be brought by the participant."
+    ],
+    "faculty": [
+      {
+        "name": "DR. P. E. IRIN DORATHY",
+        "designation": "AP/ECE"
+      },
+      {
+        "name": "MRS. S.SANKARI",
+        "designation": "TAP/CSE"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "SUBASH",
+        "department": "CIVIL",
+        "phone": "8489638803"
+      },
+      {
+        "name": "ASWANTH",
+        "department": "MECH",
+        "phone": "8531835534"
+      },
+      {
+        "name": "CHITHAYEE AMBIKA",
+        "department": "EEE",
+        "phone": "9043514259"
+      },
+      {
+        "name": "SELVANISHA",
+        "department": "ECE-B",
+        "phone": "8072325072"
+      }
+    ]
+  },
+  {
+    "number": 13,
+    "title": "MEHANDI",
+    "category": "General Events",
+    "date": "06-10-2026",
+    "rules": [
+      "Duration: 1 hour.",
+      "Participants must bring their own Mehandi cones and materials."
+    ],
+    "faculty": [
+      {
+        "name": "DR. S. PAULINE",
+        "designation": "ASP/CIVIL"
+      },
+      {
+        "name": "Mrs.M.JEYAM",
+        "designation": "TAP/CSE"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "NANDHINI",
+        "department": "CSE",
+        "phone": "9894179538"
+      },
+      {
+        "name": "SUMU PRIYA",
+        "department": "MECH",
+        "phone": "9361191642"
+      },
+      {
+        "name": "THILAI BALA",
+        "department": "CIVIL",
+        "phone": "8610123913"
+      },
+      {
+        "name": "RASINATH JAMROON",
+        "department": "ECE-B",
+        "phone": "7418002264"
+      },
+      {
+        "raw": "DIGITAL EVENTS"
+      },
+      {
+        "raw": "COMMON INSTRUCTIONS:"
+      },
+      {
+        "raw": "* Participants should submit their work through the Email ID: elyx26@gmail.com"
+      },
+      {
+        "raw": "* File name should be in the following format: Name - Year - Department"
+      },
+      {
+        "raw": "* The submissions will not be validated if submitted after the deadline."
+      }
+    ]
+  },
+  {
+    "number": 14,
+    "title": "PHOTOGRAPHY",
+    "category": "Digital Events",
+    "date": "16-10-2026",
+    "rules": [
+      "Candidates should participate individually.",
+      "Photos should be taken only with mobile phones and inside GCE-campus.",
+      "Photos should not be edited and must be submitted with a watermark in JPEG format."
+    ],
+    "faculty": [
+      {
+        "name": "DR. E. SIVA SANKARI",
+        "designation": "ASP/CSE"
+      },
+      {
+        "name": "PROF. G. SONA",
+        "designation": "AP/CSE"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "NAWIN",
+        "department": "ECE-A",
+        "phone": "6385662945"
+      },
+      {
+        "name": "JONATHAN",
+        "department": "MECH",
+        "phone": "7598150117"
+      },
+      {
+        "name": "MUTHU LAKSMI",
+        "department": "CIVIL",
+        "phone": "9159970274"
+      },
+      {
+        "name": "SUBA SRI",
+        "department": "EEE",
+        "phone": "9361046360"
+      }
+    ]
+  },
+  {
+    "number": 15,
+    "title": "SHORT FILM MAKING",
+    "category": "Digital Events",
+    "date": "Before 16-10-2026",
+    "rules": [
+      "Content must be original and not violate any copyright rules.",
+      "Any genre is allowed except controversial/adult themes."
+    ],
+    "faculty": [
+      {
+        "name": "DR. K. THULASIMANI",
+        "designation": "PROF/CSE"
+      },
+      {
+        "name": "MR. A.PRINCE",
+        "designation": "TAP/MECH"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "RAKESH SHARMA",
+        "department": "ECE-B",
+        "phone": "9585207691"
+      },
+      {
+        "name": "SANJAY",
+        "department": "CSE",
+        "phone": "8825779929"
+      },
+      {
+        "name": "BHAVANI",
+        "department": "EEE",
+        "phone": "9361943981"
+      },
+      {
+        "name": "ARUNA",
+        "department": "MECH",
+        "phone": "7010382050"
+      }
+    ]
+  },
+  {
+    "number": 16,
+    "title": "VIDEO EDITING",
+    "category": "Digital Events",
+    "date": "Before 16-10-2026",
+    "rules": [
+      "Candidates should participate individually.",
+      "Videos can be taken with mobile phones only inside GCE campus.",
+      "Maximum time for a video is 30 seconds."
+    ],
+    "faculty": [
+      {
+        "name": "DR. E. MOHAMED NAJEEB",
+        "designation": "AP/CIVIL"
+      },
+      {
+        "name": "MS. J. JAYASURIYA",
+        "designation": "TAP/CIVIL"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "ARI PRASATH",
+        "department": "ECE-A",
+        "phone": "9994753825"
+      },
+      {
+        "name": "ALAGESH PANDI",
+        "department": "CSE",
+        "phone": "8015021278"
+      },
+      {
+        "name": "JAYA SRI",
+        "department": "CIVIL",
+        "phone": "6379228255"
+      },
+      {
+        "name": "VINOTHINI",
+        "department": "EEE",
+        "phone": "9786356135"
+      }
+    ]
+  },
+  {
+    "number": 17,
+    "title": "CERTIFICATE DESIGNING",
+    "category": "Digital Events",
+    "date": "Before 16-10-2026",
+    "rules": [
+      "Candidates should participate individually.",
+      "All details regarding ELYX'26 should be included.",
+      "Files should be sent in PDF or PNG format."
+    ],
+    "faculty": [
+      {
+        "name": "DR. S. MARIRAJ MOHAN",
+        "designation": "ASP/CIVIL"
+      },
+      {
+        "name": "MS. A.MICHLINE REEGA",
+        "designation": "TAP/CIVIL"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "VENGADESAN",
+        "department": "CSE",
+        "phone": "6380188588"
+      },
+      {
+        "name": "ANANTH",
+        "department": "ECE-A",
+        "phone": "6385822658"
+      },
+      {
+        "name": "MOHANA MADUBALA",
+        "department": "EEE",
+        "phone": "9344086310"
+      },
+      {
+        "name": "JEBA CATHARIN",
+        "department": "ECE-A",
+        "phone": "9789112567"
+      }
+    ]
+  },
+  {
+    "number": 18,
+    "title": "FLEX DESIGNING",
+    "category": "Digital Events",
+    "date": "Before 16-10-2026",
+    "rules": [
+      "Candidates should participate individually.",
+      "All details regarding ELYX'26 should be included (Chief Guest Name, Event duration, etc.).",
+      "Files should be sent in PDF or PNG format."
+    ],
+    "faculty": [
+      {
+        "name": "DR. S. ANBU CHUDAR AZHAGAN",
+        "designation": "ASP/PHYSICS"
+      },
+      {
+        "name": "MR.K.MANTHIRA MOORTHY",
+        "designation": "TAP/MECH"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "KEDHAR A",
+        "department": "CSE",
+        "phone": "9597799546"
+      },
+      {
+        "name": "BOOPATHI",
+        "department": "CIVIL",
+        "phone": "8124876926"
+      },
+      {
+        "name": "NAVANEETHA KRSHINAN",
+        "department": "MECH",
+        "phone": "8608926177"
+      },
+      {
+        "name": "VINAYAGAM",
+        "department": "CSE",
+        "phone": "8072838896"
+      }
+    ]
+  },
+  {
+    "number": 19,
+    "title": "MEME CREATION",
+    "category": "Digital Events",
+    "date": "Before 16-10-2026",
+    "rules": [
+      "Candidates should participate individually.",
+      "The meme content should be about Engineering colleges.",
+      "Video memes are not permitted. Send in JPEG format."
+    ],
+    "faculty": [
+      {
+        "name": "PROF. N. JEENATH LAILA",
+        "designation": "AP/CSE"
+      },
+      {
+        "name": "DR.A.ALICE BLESSIE",
+        "designation": "TAP/ECE"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "AABITH",
+        "department": "CSE",
+        "phone": "6382550569"
+      },
+      {
+        "name": "VALLARASU",
+        "department": "ECE-B",
+        "phone": "6374033827"
+      },
+      {
+        "name": "ABHINA",
+        "department": "EEE",
+        "phone": "9384500262"
+      },
+      {
+        "name": "SUGANTHI",
+        "department": "CIVIL",
+        "phone": "9488044575"
+      },
+      {
+        "raw": "ON STAGE EVENTS"
+      }
+    ]
+  },
+  {
+    "number": 20,
+    "title": "MIME",
+    "category": "On Stage Events",
+    "date": "07-10-2026",
+    "rules": [
+      "Duration maximum 10 minutes. Maximum 10 persons allowed.",
+      "Adult contents, controversial contents, and contents offending faculties are not permitted."
+    ],
+    "faculty": [
+      {
+        "name": "DR. S. IDA EVANGELINE",
+        "designation": "AP/EEE"
+      },
+      {
+        "name": "PROF. A. RENALDO MAXIMUS",
+        "designation": "AP/ECE"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "VIJAY KUMAR",
+        "department": "CSE",
+        "phone": "6369345012"
+      },
+      {
+        "name": "VIJAY",
+        "department": "ECE-B",
+        "phone": "6380239097"
+      },
+      {
+        "name": "TAMIL SELVI",
+        "department": "CIVIL",
+        "phone": "9092264520"
+      },
+      {
+        "name": "SWETHA LAKSHMI",
+        "department": "EEE",
+        "phone": "8825543878"
+      }
+    ]
+  },
+  {
+    "number": 21,
+    "title": "SILAMBAM",
+    "category": "On Stage Events",
+    "date": "06-10-2026",
+    "rules": [
+      "Duration maximum 2 minutes.",
+      "Candidates should participate individually.",
+      "Silambam sticks will be provided."
+    ],
+    "faculty": [
+      {
+        "name": "PROF. S. SOMESH SUBRAMANIAN",
+        "designation": "AP/MECH"
+      },
+      {
+        "name": "DR. S. ANANTHAKUMAR",
+        "designation": "AP/MECH"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "RAMKUMAR",
+        "department": "ECE-B",
+        "phone": "8015407335"
+      },
+      {
+        "name": "VEDHA SUJITH",
+        "department": "ECE-B",
+        "phone": "6379665181"
+      },
+      {
+        "name": "MAHARAJA",
+        "department": "EEE",
+        "phone": "9524669119"
+      },
+      {
+        "name": "KAVIYA G",
+        "department": "ECE-A",
+        "phone": "9487194686"
+      }
+    ]
+  },
+  {
+    "number": 22,
+    "title": "SINGING",
+    "category": "On Stage Events",
+    "date": "21-10-2026",
+    "rules": [
+      "Preliminary rounds will be conducted. Karaoke should be submitted earlier.",
+      "Solo Singing: Duration maximum 5 minutes. Dancing is not permitted.",
+      "Group Singing: Duration maximum 7 minutes."
+    ],
+    "faculty": [
+      {
+        "name": "DR. G. TAMIL PAVAI",
+        "designation": "HOD/CSE"
+      },
+      {
+        "name": "DR. J. SUGANTHI",
+        "designation": "PROF/EEE"
+      },
+      {
+        "name": "DR. D. JEBAKANI",
+        "designation": "PROF/MECH"
+      },
+      {
+        "name": "DR. A. KRISHNAVENI",
+        "designation": "PROF/MECH"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "RANJITH KUMAR",
+        "department": "ECE-B",
+        "phone": "6381587076"
+      },
+      {
+        "name": "MUGESH KUMAR",
+        "department": "EEE",
+        "phone": "9345992247"
+      },
+      {
+        "name": "VISHNU C M",
+        "department": "ECE-B",
+        "phone": "9677807367"
+      },
+      {
+        "name": "BOOMIKA",
+        "department": "CIVIL",
+        "phone": "9360805613"
+      },
+      {
+        "name": "HEMA",
+        "department": "MECH",
+        "phone": "8438890190"
+      }
+    ]
+  },
+  {
+    "number": 23,
+    "title": "DANCING",
+    "category": "On Stage Events",
+    "date": "21-10-2026",
+    "rules": [
+      "Dance audio must be submitted in advance. Proper decent costumes required.",
+      "Solo Dance: Duration 4-5 mins.",
+      "Group Dance: Duration 6-7 mins. Max 8 people."
+    ],
+    "faculty": [
+      {
+        "name": "DR. T. SEETHALAKSHMI",
+        "designation": "AP/CIVIL"
+      },
+      {
+        "name": "MR. S. SAM REGIS",
+        "designation": "TAP/EEE"
+      },
+      {
+        "name": "DR. P. SUBHA KARUVELAM",
+        "designation": "PROF/EEE"
+      },
+      {
+        "name": "DR. M. GNANA SUNDARI",
+        "designation": "PROF/EEE"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "PRATHAP",
+        "department": "CSE",
+        "phone": "7094234189"
+      },
+      {
+        "name": "DEVA",
+        "department": "MECH",
+        "phone": "6379843913"
+      },
+      {
+        "name": "FATHIMA",
+        "department": "ECE-A",
+        "phone": "8825753153"
+      },
+      {
+        "name": "JOTHEESHWARI",
+        "department": "CIVIL",
+        "phone": "7845293989"
+      }
+    ]
+  },
+  {
+    "number": 24,
+    "title": "INSTRUMENTAL PLAYING",
+    "category": "On Stage Events",
+    "date": "21-10-2026",
+    "rules": [
+      "Duration maximum 4 minutes. Any instrument is allowed.",
+      "Usage of recorded audios is not allowed."
+    ],
+    "faculty": [
+      {
+        "name": "DR. J. JOHN",
+        "designation": "ASP/MATHS"
+      },
+      {
+        "name": "DR. S. SOPHIE BEULAH",
+        "designation": "ASP/CHEMISTRY"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "SESHU GANESH",
+        "department": "ECE-B",
+        "phone": "9629956042"
+      },
+      {
+        "name": "KANNAN S P",
+        "department": "CSE",
+        "phone": "9344889051"
+      },
+      {
+        "name": "AATHI KESAVAN",
+        "department": "CIVIL",
+        "phone": "9342456754"
+      },
+      {
+        "name": "MARIDHAS",
+        "department": "ECE-A",
+        "phone": "7305798505"
+      }
+    ]
+  },
+  {
+    "number": 25,
+    "title": "FASHION SHOW",
+    "category": "On Stage Events",
+    "date": "21-10-2026",
+    "rules": [
+      "Proper dress code should be maintained.",
+      "Decent attires are compulsory."
+    ],
+    "faculty": [
+      {
+        "name": "DR.D.MANI BHARATHI (M.E",
+        "designation": ""
+      },
+      {
+        "name": "PH.D.)",
+        "designation": ""
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "SHRIVARSAN",
+        "department": "ECE-B",
+        "phone": "9360998412"
+      },
+      {
+        "name": "DURGESH RAMKUMAR",
+        "department": "ECE-A",
+        "phone": "9025565520"
+      },
+      {
+        "name": "DHANUSH",
+        "department": "MECH",
+        "phone": "9025385431"
+      },
+      {
+        "name": "JESWN",
+        "department": "EEE",
+        "phone": "9385716377"
+      }
+    ]
+  },
+  {
+    "number": 26,
+    "title": "DRAMA",
+    "category": "On Stage Events",
+    "date": "05-10-2026",
+    "rules": [
+      "Duration 15 minutes. Maximum 10 persons allowed.",
+      "Adult contents and controversial contents are not allowed.",
+      "Properties needed should be brought on your own."
+    ],
+    "faculty": [
+      {
+        "name": "DR. E. SIVARAMAN",
+        "designation": "ASP/ECE"
+      },
+      {
+        "name": "PROF. V. SELVAKUMAR",
+        "designation": "AP/ECE"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "RAHUL",
+        "department": "CSE",
+        "phone": "8778154886"
+      },
+      {
+        "name": "DINAFRIN MARSHAL",
+        "department": "EEE",
+        "phone": "7708489488"
+      },
+      {
+        "name": "KOWSHIKA",
+        "department": "CIVIL",
+        "phone": "9486202421"
+      },
+      {
+        "name": "KUMUDHA",
+        "department": "ECE-A",
+        "phone": "9080862410"
+      }
+    ]
+  },
+  {
+    "number": 27,
+    "title": "TALENT HUNT",
+    "category": "On Stage Events",
+    "date": "01-10-2026",
+    "rules": [
+      "Showcase any unique talent within 5 minutes.",
+      "Proper code of conduct should be followed."
+    ],
+    "faculty": [
+      {
+        "name": "DR. A. THANGARAJ",
+        "designation": "AP/EEE"
+      },
+      {
+        "name": "DR. M. BALASUBRAMANIAN",
+        "designation": "AP/EEE"
+      }
+    ],
+    "coordinators": [
+      {
+        "name": "MAHESHWARAN",
+        "department": "CIVIL",
+        "phone": "7904288968"
+      },
+      {
+        "name": "SHYAM ROSHAN",
+        "department": "ECE-B",
+        "phone": "7010971796"
+      },
+      {
+        "name": "ABSAL",
+        "department": "CSE",
+        "phone": "8838669760"
+      },
+      {
+        "name": "SWETHA",
+        "department": "CIVIL",
+        "phone": "8248814895"
+      }
+    ]
+  }
+]

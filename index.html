@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/webp" href="/assets/gcelogo.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ELYX 26 | GCE Tirunelveli Cultural Events Platform</title>
+    
+    <!-- Theme Flash Prevention Script -->
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('elyx26_theme');
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark) || !saved) {
+            document.documentElement.classList.add('dark');
+            document.documentElement.classList.remove('light');
+          } else {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.classList.add('light');
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- Meta & SEO Tags -->
+    <meta name="description" content="Official Cultural Events Registration Platform for ELYX 26 at Government College of Engineering, Tirunelveli. Organized by Fine Arts Association. 30 competitions across stage, literary, art, and digital categories." />
+    <meta name="keywords" content="ELYX 26, GCE Tirunelveli, Government College of Engineering Tirunelveli, Fine Arts Association, Culturals, College Festival, Tamil Nadu" />
+    <meta name="author" content="Government College of Engineering, Tirunelveli" />
+    <meta name="theme-color" content="#ea580c" />
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ELYX 26 | Cultural Events Platform - GCE Tirunelveli" />
+    <meta property="og:description" content="Register for ELYX 26 cultural competitions at Government College of Engineering, Tirunelveli. 21 April - 09 May 2025." />
+    <meta property="og:image" content="/assets/artifex_hero.webp" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ELYX 26 | GCE Tirunelveli Cultural Events" />
+    <meta name="twitter:description" content="Official cultural events registration platform for Government College of Engineering, Tirunelveli." />
+    <meta name="twitter:image" content="/assets/artifex_hero.webp" />
+
+    <!-- Google Fonts Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 font-sans antialiased min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

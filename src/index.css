@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cabinet+Grotesk:wght@700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-display: 'Cabinet Grotesk', 'Plus Jakarta Sans', sans-serif;
+
+    /* Light Theme Tokens */
+    --color-bg-base: #f8fafc;
+    --color-bg-surface: #ffffff;
+    --color-text-main: #0f172a;
+    --color-text-muted: #64748b;
+    --glass-bg: rgba(255, 255, 255, 0.78);
+    --glass-border: rgba(226, 232, 240, 0.85);
+    --glass-card-bg: rgba(255, 255, 255, 0.85);
+    --glass-card-border: rgba(226, 232, 240, 0.9);
+  }
+
+  .dark {
+    /* Dark Theme Tokens - Deep Charcoal & Near Black */
+    --color-bg-base: #030712;
+    --color-bg-surface: #0b1120;
+    --color-text-main: #f8fafc;
+    --color-text-muted: #94a3b8;
+    --glass-bg: rgba(11, 17, 32, 0.82);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --glass-card-bg: rgba(17, 24, 39, 0.72);
+    --glass-card-border: rgba(255, 255, 255, 0.09);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color-scheme: light dark;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 antialiased selection:bg-orange-500/20 selection:text-orange-600 dark:selection:bg-orange-500/30 dark:selection:text-orange-400 min-h-screen flex flex-col transition-colors duration-300;
+  }
+}
+
+@layer components {
+  /* iOS-Inspired Glassmorphism Tokens */
+  .glass-nav {
+    @apply bg-white/80 dark:bg-slate-950/80 backdrop-blur-xl border-b border-slate-200/80 dark:border-white/10 shadow-sm sticky top-0 z-40 transition-all duration-300;
+  }
+
+  .glass-nav-scrolled {
+    @apply bg-white/90 dark:bg-slate-950/90 backdrop-blur-2xl border-b border-slate-200 dark:border-white/15 shadow-md shadow-black/5 dark:shadow-black/20;
+  }
+
+  .glass-card {
+    @apply bg-white/80 dark:bg-slate-900/60 backdrop-blur-xl border border-slate-200/80 dark:border-white/10 rounded-2xl shadow-sm dark:shadow-glass-dark transition-all duration-300;
+  }
+
+  .glass-card-interactive {
+    @apply glass-card hover:-translate-y-1 hover:border-orange-500/40 dark:hover:border-orange-500/40 hover:shadow-lg dark:hover:shadow-glass-dark-hover active:scale-[0.99] transition-all duration-300;
+  }
+
+  .glass-panel {
+    @apply bg-white/90 dark:bg-slate-900/75 backdrop-blur-2xl border border-slate-200/90 dark:border-white/10 rounded-3xl shadow-xl dark:shadow-glass-dark transition-all duration-300;
+  }
+
+  .glass-pill {
+    @apply bg-slate-100/90 dark:bg-white/10 backdrop-blur-md border border-slate-200/70 dark:border-white/10 rounded-full px-3 py-1 text-xs font-medium text-slate-700 dark:text-slate-200;
+  }
+
+  .badge-subtle {
+    @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold border transition-colors;
+  }
+
+  /* Interactive Buttons */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl font-medium text-white bg-gradient-to-r from-orange-600 via-orange-500 to-amber-600 hover:from-orange-500 hover:to-amber-500 shadow-sm hover:shadow-lg hover:shadow-orange-500/25 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 disabled:opacity-50 disabled:pointer-events-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500/50;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl font-medium text-slate-700 dark:text-slate-200 bg-white/90 dark:bg-slate-800/80 border border-slate-200/90 dark:border-white/15 hover:bg-slate-50 dark:hover:bg-slate-800 hover:border-slate-300 dark:hover:border-white/25 shadow-sm hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 disabled:opacity-50 disabled:pointer-events-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500/50 backdrop-blur-sm;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 px-3.5 py-2 rounded-xl font-medium text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100/80 dark:hover:bg-white/10 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200;
+  }
+
+  /* Form Elements */
+  .form-input {
+    @apply w-full px-4 py-2.5 rounded-xl border border-slate-200 dark:border-white/15 bg-white dark:bg-slate-900/80 text-slate-900 dark:text-white placeholder:text-slate-400 dark:placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-orange-500/30 focus:border-orange-500 transition-all duration-200 text-sm;
+  }
+
+  .form-select {
+    @apply w-full px-4 py-2.5 rounded-xl border border-slate-200 dark:border-white/15 bg-white dark:bg-slate-900/80 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-orange-500/30 focus:border-orange-500 transition-all duration-200 text-sm;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.4);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.7);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Accessible reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Single-Page Pass Print Styling */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 12mm auto;
+  }
+
+  html,
+  body {
+    background: #ffffff !important;
+    color: #0f172a !important;
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Hide background elements, navigation, footers, modals backdrops, and action buttons */
+  header,
+  footer,
+  nav,
+  .print\:hidden,
+  .no-print,
+  button {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  /* Hide root content when printing */
+  body > * {
+    visibility: hidden !important;
+  }
+
+  /* Make only the pass container visible and centered */
+  #registration-pass,
+  #registration-pass * {
+    visibility: visible !important;
+  }
+
+  #registration-pass {
+    position: fixed !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 90% !important;
+    max-width: 580px !important;
+    margin: 0 auto !important;
+    box-shadow: none !important;
+    border: 2px solid #ea580c !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+}
+
