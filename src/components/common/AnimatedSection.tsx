@@ -28,22 +28,29 @@ export const AnimatedSection: React.FC<AnimatedSectionProps> = ({
     const currentRef = ref.current;
     if (!currentRef) return;
 
+    // Safety timeout: ensure content is revealed even if IntersectionObserver is delayed
+    const timer = setTimeout(() => {
+      setIsVisible(true);
+    }, 400);
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
+          clearTimeout(timer);
           observer.disconnect(); // Fire once and stop observing
         }
       },
       {
-        threshold: 0.1,
-        rootMargin: '0px 0px -40px 0px',
+        threshold: 0,
+        rootMargin: '120px 0px 120px 0px',
       }
     );
 
     observer.observe(currentRef);
 
     return () => {
+      clearTimeout(timer);
       observer.disconnect();
     };
   }, [isVisible]);
