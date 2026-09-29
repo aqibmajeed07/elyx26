@@ -972,50 +972,7 @@ export const INITIAL_EVENTS: CulturalEvent[] = [
     "status": "registration_open",
     "featured": false
   },
-  {
-    "id": "clay-modelling",
-    "slug": "clay-modelling",
-    "title": "Clay Modelling",
-    "category": "Craft & Design",
-    "participation_type": "team",
-    "team_size_min": 1,
-    "team_size_max": 4,
-    "event_date": "2025-04-30",
-    "start_time": "15:00",
-    "end_time": "17:00",
-    "venue": "SSS Block & Exam Hall",
-    "registration_deadline": "2025-04-29T23:59:59",
-    "description": "Sculpt and mould 3-dimensional clay artistic creations based on your imagination or theme.",
-    "rules": [
-      "Duration: Maximum 1 hour.",
-      "Maximum number of people allowed: 4.",
-      "Clay will be provided by organizers."
-    ],
-    "faculty_incharge": [
-      {
-        "name": "Dr. S. Pauline",
-        "designation": "AsP/CIVIL"
-      },
-      {
-        "name": "Dr. K. Sumangala",
-        "designation": "AP/CIVIL"
-      }
-    ],
-    "coordinators": [
-      {
-        "name": "Ahamed Reshmi M",
-        "department": "ECE IV Year",
-        "phone": "8438002078"
-      },
-      {
-        "name": "Sathish Selva Kanth M",
-        "department": "MECH IV Year",
-        "phone": "6382517880"
-      }
-    ],
-    "status": "registration_open",
-    "featured": false
-  },
+
   {
     "id": "drama",
     "slug": "drama",
@@ -1720,9 +1677,9 @@ export const INITIAL_EVENTS: CulturalEvent[] = [
     "slug": "fashion-show",
     "title": "Fashion Show / Traditional Walk",
     "category": "Theatre & Performance",
-    "participation_type": "team",
-    "team_size_min": 4,
-    "team_size_max": 10,
+    "participation_type": "individual",
+    "team_size_min": 1,
+    "team_size_max": 1,
     "event_date": "2025-05-08",
     "start_time": "15:00",
     "end_time": "17:30",

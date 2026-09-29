@@ -601,25 +601,7 @@ INSERT INTO public.events (
   status = EXCLUDED.status,
   featured = EXCLUDED.featured;
 
-INSERT INTO public.events (
-  id, slug, title, category, participation_type, team_size_min, team_size_max,
-  event_date, start_time, end_time, venue, registration_deadline, description,
-  rules, faculty_incharge, coordinators, status, featured
-) VALUES (
-  'clay-modelling', 'clay-modelling', 'Clay Modelling', 'Craft & Design', 'team',
-  1, 4, '2025-04-30'::date, '15:00'::time, '17:00'::time,
-  'SSS Block & Exam Hall', '2025-04-29T23:59:59'::timestamptz, 'Sculpt and mould 3-dimensional clay artistic creations based on your imagination or theme.',
-  '["Duration: Maximum 1 hour.", "Maximum number of people allowed: 4.", "Clay will be provided by organizers."]'::jsonb, '[{"name": "Dr. S. Pauline", "designation": "AsP/CIVIL"}, {"name": "Dr. K. Sumangala", "designation": "AP/CIVIL"}]'::jsonb, '[{"name": "Ahamed Reshmi M", "department": "ECE IV Year", "phone": "8438002078"}, {"name": "Sathish Selva Kanth M", "department": "MECH IV Year", "phone": "6382517880"}]'::jsonb,
-  'registration_open', false
-) ON CONFLICT (id) DO UPDATE SET
-  title = EXCLUDED.title,
-  category = EXCLUDED.category,
-  description = EXCLUDED.description,
-  rules = EXCLUDED.rules,
-  faculty_incharge = EXCLUDED.faculty_incharge,
-  coordinators = EXCLUDED.coordinators,
-  status = EXCLUDED.status,
-  featured = EXCLUDED.featured;
+
 
 INSERT INTO public.events (
   id, slug, title, category, participation_type, team_size_min, team_size_max,
@@ -866,8 +848,8 @@ INSERT INTO public.events (
   event_date, start_time, end_time, venue, registration_deadline, description,
   rules, faculty_incharge, coordinators, status, featured
 ) VALUES (
-  'fashion-show', 'fashion-show', 'Fashion Show / Traditional Walk', 'Theatre & Performance', 'team',
-  4, 10, '2025-05-08'::date, '15:00'::time, '17:30'::time,
+  'fashion-show', 'fashion-show', 'Fashion Show / Traditional Walk', 'Theatre & Performance', 'individual',
+  1, 1, '2025-05-08'::date, '15:00'::time, '17:30'::time,
   'College Auditorium', '2025-05-06T23:59:59'::timestamptz, 'Celebrate Indian cultural diversity, ethnic elegance, and thematic runway walks.',
   '["Team size: 4 - 10 members.", "Strict adherence to college dress code: vulgarity or indecent costumes will result in immediate disqualification.", "Soundtrack must be submitted 2 days in advance.", "Performance duration: 7 minutes."]'::jsonb, '[{"name": "Faculty Incharge", "designation": "Fine Arts Association"}]'::jsonb, '[{"name": "Shrivarsan", "department": "ECE-B", "phone": "9360998412"}, {"name": "Durgesh Ramkumar", "department": "ECE-A", "phone": "9025565520"}, {"name": "Dhanush", "department": "MECH", "phone": "9025385431"}, {"name": "Jeswn", "department": "EEE", "phone": "9385716377"}]'::jsonb,
   'registration_open', true
