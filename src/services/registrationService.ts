@@ -39,26 +39,30 @@ export const registrationService = {
 
       const { data, error } = await query;
 
-      if (!error && data && data.length > 0) {
+      if (error) {
+        // Fallback to cached entries only on error
+        const saved = localStorage.getItem(CACHE_KEY) || localStorage.getItem('artifex_registrations_cache');
+        if (saved) {
+          try {
+            const list = JSON.parse(saved) as Registration[];
+            if (studentId) {
+              return { data: list.filter((r) => r.student_id === studentId), error: null };
+            }
+            return { data: list, error: null };
+          } catch {
+            // ignore
+          }
+        }
+        return { data: [], error: new Error(error.message) };
+      }
+
+      if (data) {
         const parsed: Registration[] = data.map((d) => ({
           ...d,
           team_members: typeof d.team_members === 'string' ? JSON.parse(d.team_members) : d.team_members || [],
         }));
+        localStorage.setItem(CACHE_KEY, JSON.stringify(parsed));
         return { data: parsed, error: null };
-      }
-
-      // 3. Fallback to cached entries if table query returns 0 (e.g. Postgres RLS filter)
-      const saved = localStorage.getItem(CACHE_KEY) || localStorage.getItem('artifex_registrations_cache');
-      if (saved) {
-        try {
-          const list = JSON.parse(saved) as Registration[];
-          if (studentId) {
-            return { data: list.filter((r) => r.student_id === studentId), error: null };
-          }
-          return { data: list, error: null };
-        } catch {
-          // ignore
-        }
       }
 
       return { data: [], error: null };

@@ -1687,7 +1687,7 @@ export const INITIAL_EVENTS: CulturalEvent[] = [
     "registration_deadline": "2025-05-06T23:59:59",
     "description": "Celebrate Indian cultural diversity, ethnic elegance, and thematic runway walks.",
     "rules": [
-      "Team size: 4 - 10 members.",
+      "Individual participation only.",
       "Strict adherence to college dress code: vulgarity or indecent costumes will result in immediate disqualification.",
       "Soundtrack must be submitted 2 days in advance.",
       "Performance duration: 7 minutes."

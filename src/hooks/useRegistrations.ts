@@ -5,78 +5,38 @@ import { registrationService } from '../services/registrationService';
 
 const LOCAL_REGISTRATIONS_KEY = 'elyx26_registrations_cache';
 
-// Initial records verified in Supabase to guarantee display in Admin Panel
-const SEED_CONFIRMED_REGISTRATIONS: Registration[] = [
-  {
-    id: '2d658b6e-0708-4cbe-8164-a0b8a1f4a160',
-    event_id: 'drawing',
-    event_title: 'Drawing',
-    student_id: undefined,
-    full_name: 'AQIB MAJEED',
-    register_number: '950823104007',
-    department: 'Civil Engineering (CIVIL)',
-    year: '1st Year',
-    email: 'aqib.majeed@gcetly.ac.in',
-    phone: '9840123456',
-    college: 'Government College of Engineering, Tirunelveli',
-    participation_type: 'individual',
-    team_name: undefined,
-    team_members: [],
-    status: 'confirmed',
-    created_at: '2026-09-28T16:42:54.490347+00:00',
-  },
-];
-
 export const useRegistrations = () => {
   const { user, profile, isAdmin } = useAuth();
   const [registrations, setRegistrations] = useState<Registration[]>(() => {
-    const saved =
-      localStorage.getItem(LOCAL_REGISTRATIONS_KEY) ||
-      localStorage.getItem('artifex_registrations_cache');
+    const saved = localStorage.getItem(LOCAL_REGISTRATIONS_KEY);
     if (saved) {
       try {
         const parsed = JSON.parse(saved);
-        if (Array.isArray(parsed) && parsed.length > 0) {
+        if (Array.isArray(parsed)) {
           return parsed;
         }
       } catch {
         // ignore
       }
     }
-    // Return verified seed records from Supabase
-    return SEED_CONFIRMED_REGISTRATIONS;
+    return [];
   });
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
-  // Fetch registrations from Supabase and merge seamlessly with local cache
+  // Fetch registrations from Supabase
   const fetchRegistrations = useCallback(async () => {
     setIsLoading(true);
     setError(null);
 
-    // If admin, fetch all; if authenticated student, fetch theirs; otherwise fetch cached
+    // If admin, fetch all; if authenticated student, fetch theirs
     const studentId = isAdmin ? undefined : (user?.id || profile?.id);
     const res = await registrationService.fetchRegistrations(studentId);
 
-    // Read cached entries
-    const savedRaw =
-      localStorage.getItem(LOCAL_REGISTRATIONS_KEY) ||
-      localStorage.getItem('artifex_registrations_cache');
-    const cachedList: Registration[] = savedRaw ? JSON.parse(savedRaw) : SEED_CONFIRMED_REGISTRATIONS;
-
-    // Use Map to merge without losing registrations
-    const mergedMap = new Map<string, Registration>();
-    SEED_CONFIRMED_REGISTRATIONS.forEach((r) => mergedMap.set(r.id, r));
-    cachedList.forEach((r) => mergedMap.set(r.id, r));
-    (res.data || []).forEach((r) => mergedMap.set(r.id, r));
-
-    const combined = Array.from(mergedMap.values()).sort(
-      (a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
-    );
-
-    setRegistrations(combined);
-    localStorage.setItem(LOCAL_REGISTRATIONS_KEY, JSON.stringify(combined));
-    localStorage.setItem('artifex_registrations_cache', JSON.stringify(combined));
+    if (res.data) {
+      setRegistrations(res.data);
+      localStorage.setItem(LOCAL_REGISTRATIONS_KEY, JSON.stringify(res.data));
+    }
 
     if (res.error) {
       setError(res.error.message);
